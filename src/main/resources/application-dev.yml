@@ -1,0 +1,10 @@
+site:
+  datasource_driver: com.mysql.cj.jdbc.Driver
+  datasource_url: jdbc:mysql://192.168.0.52:3306/pybbs?allowPublicKeyRetrieval=true&useSSL=false&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+  datasource_username: root
+  datasource_password: Aa123456!
+
+# 想看mybatis执行的sql的时候，去掉下面这段的注释
+#mybatis-plus:
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

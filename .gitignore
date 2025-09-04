@@ -2,6 +2,7 @@
 **/.idea/
 **/node_modules/
 **/.**.xml
+**/logs/
 
 ### VS Code ###
 .vscode/
